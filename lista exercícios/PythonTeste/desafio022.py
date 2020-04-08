@@ -1,0 +1,7 @@
+name = str(input('What is your name? ')).strip()
+print('I see, so your name is',name)
+print('Your name in uppscale is {}'.format(name.upper()))
+print('Your name in lowercase is {}'.format(name.lower()))
+print('Your name has {} letters'.format(len(name) - name.count(' ')))
+splited = name.split()
+print('Your first name is {} and has {} letters'.format(splited[0], len(splited[0])))
